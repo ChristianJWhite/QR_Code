@@ -78,10 +78,6 @@ def writeGreyscalePixelArraytoPNG(output_filename, pixel_array, image_width, ima
 
 
 
-#######################################Added functions below#########################################################
-
-
-
 #This method computes a greyscale representation from the red, green and blue pixel arrays 
 def computeRGBToGreyscale(pixel_array_r, pixel_array_g, pixel_array_b, image_width, image_height):
     calculation = 0
@@ -418,7 +414,7 @@ def bottomLeftPix(pixel_array, image_width, image_height):
     return pixel
 
 ##############################################################################################################
-###################################### CHANGE FILE BELOW #####################################################
+###################################### CHANGE FILENAME BELOW #################################################
 ##############################################################################################################
 
 
